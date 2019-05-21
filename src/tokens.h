@@ -34,6 +34,7 @@ typedef struct tokenDefinition_t {
 #define NUM_TOKENS_ETHER1 0
 #define NUM_TOKENS_PIRL 0
 #define NUM_TOKENS_POA 0
+#define NUM_TOKENS_PANZER 0
 #define NUM_TOKENS_RSK 0
 #define NUM_TOKENS_UBIQ 6
 #define NUM_TOKENS_EXPANSE 0
@@ -57,6 +58,7 @@ extern tokenDefinition_t const TOKENS_ETHERSOCIAL[NUM_TOKENS_ETHERSOCIAL];
 extern tokenDefinition_t const TOKENS_ETHER1[NUM_TOKENS_ETHER1];
 extern tokenDefinition_t const TOKENS_PIRL[NUM_TOKENS_PIRL];
 extern tokenDefinition_t const TOKENS_POA[NUM_TOKENS_POA];
+extern tokenDefinition_t const TOKENS_PANZER[NUM_TOKENS_PANZER];
 extern tokenDefinition_t const TOKENS_RSK[NUM_TOKENS_RSK];
 extern tokenDefinition_t const TOKENS_UBIQ[NUM_TOKENS_UBIQ];
 extern tokenDefinition_t const TOKENS_EXPANSE[NUM_TOKENS_EXPANSE];

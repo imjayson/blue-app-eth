@@ -1143,6 +1143,8 @@ const tokenDefinition_t const TOKENS_PIRL[NUM_TOKENS_PIRL] = {};
 
 const tokenDefinition_t const TOKENS_POA[NUM_TOKENS_POA] = {};
 
+const tokenDefinition_t const TOKENS_PANZER[NUM_TOKENS_PANZER] = {};
+
 const tokenDefinition_t const TOKENS_RSK[NUM_TOKENS_RSK] = {};
 
 const tokenDefinition_t const TOKENS_UBIQ[NUM_TOKENS_UBIQ] = {
