@@ -23,7 +23,7 @@ include $(BOLOS_SDK)/Makefile.defines
 DEFINES_LIB = USE_LIB_ETHEREUM
 APP_LOAD_PARAMS= --curve secp256k1 $(COMMON_LOAD_PARAMS)
 # Allow the app to use path 45 for multi-sig (see BIP45).
-# APP_LOAD_PARAMS += --path "45'"
+APP_LOAD_PARAMS += --path "45'"
 
 APPVERSION_M=1
 APPVERSION_N=2
@@ -42,7 +42,7 @@ DEFINES += CHAINID_UPCASE=\"ETHEREUM\" CHAINID_COINNAME=\"ETH\" CHAIN_KIND=CHAIN
 APPNAME = "Ethereum"
 DEFINES_LIB=
 APP_LOAD_FLAGS=--appFlags 0x840
-else ifeq ($(CHAIN),ellaism)
+else ifeq ($(CHAIN),ellaism)45'
 APP_LOAD_PARAMS += --path "44'/163'"
 DEFINES += CHAINID_UPCASE=\"ELLA\" CHAINID_COINNAME=\"ELLA\" CHAIN_KIND=CHAIN_KIND_ELLAISM CHAIN_ID=64
 APPNAME = "Ellaism"
